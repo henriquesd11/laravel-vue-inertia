@@ -11,7 +11,7 @@ class IndexController extends Controller
      */
     public function index()
     {
-        return inertia('Index/Index.vue');
+        return inertia('Index/Index.vue', ['messages' => "Aqui uma mensagem de uma props enviada para o componente via controller."]);
     }
 
     /**

@@ -1,11 +1,11 @@
 <template>
-    <h1>Show</h1>
+  <MainLayout>
+    SHOW
+  </MainLayout>
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import MainLayout from '../Layouts/MainLayout.vue';
 </script>
 
 <style>

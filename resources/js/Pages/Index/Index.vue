@@ -1,11 +1,14 @@
 <template>
-  <h1>Index</h1>
+  <MainLayout>
+    Exemple using slot
+  </MainLayout>
+  <br>
+  Props message:  {{ messages }}
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import MainLayout from '../Layouts/MainLayout.vue';
+defineProps(['messages'])
 </script>
 
 <style>
